@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Software_Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Physical_Quantities_Interfaces</Name>
+  <Identifier>b1eba8aa-3b86-4df2-94f7-39ddb42aba1c</Identifier>
+  <Description>Physical_Quantities_Interfaces project.</Description>
+  <Packages_References>
+    <Package_Reference>
+      <Last_Known_Name>Physical_Quantities_Interfaces</Last_Known_Name>
+      <Relative_Path>Physical_Quantities_Interfaces.pkgx</Relative_Path>
+      <Is_Writable>true</Is_Writable>
+    </Package_Reference>
+  </Packages_References>
+</Software_Project>

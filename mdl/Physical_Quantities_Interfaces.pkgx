@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Top_Level_Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Physical_Quantities_Interfaces</Name>
+  <Identifier>7505331c-ff37-4dc2-ae08-90d7c0a57de9</Identifier>
+  <Description> Gathers software elements allowing to deal with physical quantities.</Description>
+  <Packages />
+  <Types>
+    <Fixed_Point_Type>
+      <Name>T_Ambient_Air_Temperature</Name>
+      <Identifier>8d5f80e4-31ed-4bc3-a140-da7331d0165b</Identifier>
+      <Description>Allows to model a data that represents an ambient air temperature in degree Celsius.</Description>
+      <Base_Type_Ref>ebb36a0f-a588-4dc2-b4ff-03b59b7f0451</Base_Type_Ref>
+      <Unit>°C</Unit>
+      <Resolution>0.0625</Resolution>
+      <Offset>0</Offset>
+    </Fixed_Point_Type>
+  </Types>
+  <Interfaces>
+    <Client_Server_Interface>
+      <Name>Ambient_Air_Temperature</Name>
+      <Identifier>377445e2-f5f9-4280-a6b5-dcb517067e82</Identifier>
+      <Description>Defines an operation allowing to get data from an ambient air temperature sensor.</Description>
+      <Operations>
+        <Client_Server_Operation>
+          <Name>Get_Temperature</Name>
+          <Identifier>c9b5bd39-bb92-4c7d-a5fe-1e754f4fe5a7</Identifier>
+          <Description>Allows to get the temperature measured by the sensor.</Description>
+          <Parameters>
+            <Operation_Parameter>
+              <Name>temperature</Name>
+              <Identifier>0614f0b7-8b19-4e7b-b1d2-0f4912d46b21</Identifier>
+              <Description>Temperature read from the sensor.</Description>
+              <Referenced_Type_Id>8d5f80e4-31ed-4bc3-a140-da7331d0165b</Referenced_Type_Id>
+              <Direction>INPUT</Direction>
+            </Operation_Parameter>
+          </Parameters>
+        </Client_Server_Operation>
+      </Operations>
+    </Client_Server_Interface>
+  </Interfaces>
+  <Component_Types />
+  <Compositions />
+</Top_Level_Package>
